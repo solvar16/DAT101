@@ -3,10 +3,21 @@ import { initPrintOut, printOut, newLine } from "../../common/script/utils.mjs";
 initPrintOut(document.getElementById("txtOut"));
 
 printOut("--- Part 1, 2, 3 ----------------------------------------------------------------------------------------");
-/* Put your code below here!*/
+/* Complete the given "if" in the task_3-3.mjs file at part 1, statement so that it matches this:
+If I wake up at exactly 7 o'clock then I can catch the bus to school.
+Run the program with different values of wake-up time (6, 7, 8).
+Print out to the HTML page the expression statement you made
+*/
+
+
 printOut("Task 1, 2 and 3");
+
 let wakeUpTime = 2;
-if ("Replace this") {
+const wakeUpTime1 = 6;
+const wakeUpTime2 = 7;
+const wakeUpTime3 = 8;
+
+if (wakeUpTime > wakeUpTime2) {
   printOut("I can take the bus to school.");
 }
 printOut(newLine);

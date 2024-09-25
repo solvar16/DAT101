@@ -10,34 +10,57 @@
       <span id="txtOut" style="white-space: nowrap"></span>
     </div>
     <ol>
-      <li>Where should you use constants, and where should you use variables? Can they all be constants?</li>
+      <li>1. Where should you use constants, and where should you use variables? Can they all be constants?</li>
       <p>
-				[Replace this with you answer]
+				Man burde bruke konstanter der man vil deklarere noe som ikke skal forandre seg. Man burde bruke variabler der verdien kommer til å endre seg,
+        derfor kan man ikke bare bruke konstanter.
 			</p>
-      <li>How do parentheses affect the arithmetic outcome of an expression?</li>
+
+
+      <li>2. How do parentheses affect the arithmetic outcome of an expression?</li>
       <p>
-				[Replace this with you answer]
+				Parenteser bruker til å få riktig rekkefølge i oppgaven som skal utføres, slik at andre ting utenfor parentesen ikke påvirker det
+        som skal bli gjort inni. 
 			</p>
-      <li>How do we limit floating-point numbers to a given number of decimals?</li>
+
+
+      <li>3. How do we limit floating-point numbers to a given number of decimals?</li>
       <p>
-				[Replace this with you answer]
+				For å begrense floating-point tall til ett gitt antall desimaler, kan man bruke toFixed()
 			</p>
-      <li>How can we compare two floating-point values to see if they are equal (is 12.199999 the same as 12.2)?</li>
+
+
+      <li>4. How can we compare two floating-point values to see if they are equal (is 12.199999 the same as 12.2)?</li>
       <p>
-				[Replace this with you answer]
+				vi kan bruke Math.abs(a - b) for å sammenligne verdien til to flyttall.
 			</p>
-      <li>What do comparison operators return, and how can we check if they are FALSE or TRUE?</li>
+
+
+      <li>5. What do comparison operators return, and how can we check if they are FALSE or TRUE?</li>
       <p>
-				[Replace this with you answer]
+				sammenlignings operatorer returnerer en boolean verdi som enten er sant eller usant, avhengig av om sammenligningen
+        vurderes som sant eller usant. Man kan sjekke om påstanden er sann eller usann ved å bruke if statements. Man kan også sjekke
+        resultatet av en sammenligning ved å logge den. Hvis man bare vil sjekke om påstanden er usann, kan man 
+        oppheve betingelsen ved å bruke den logiske NOT operatoren !. 
 			</p>
-      <li>How does the Math.random() function work, and what can it be used for?</li>
+
+
+      <li>6. How does the Math.random() function work, and what can it be used for?</li>
       <p>
-				[Replace this with you answer]
+				Math.random funksjonen virker slik at ved å gi programmet et verdispenn f.eks. fra 1 til 100, vil programmet da velge
+        en verdi innenfor dette verdiområde. Den kan f.eks. brukes til å generere terningkast ved å lage verdiområde fra 1 til 6.
+        Kan også brukes i mange andre tilfeller der man vil ha et random generert svar.
 			</p>
-      <li>What is modulus (%), and when do we need this operator in mathematical operations?</li>
+
+
+      <li>7. What is modulus (%), and when do we need this operator in mathematical operations?</li>
       <p>
-				[Replace this with you answer]
+				Modulus gir oss resten av en verdi. Det er resten av det du har delt på, så hvis man deler 4 kakestykker
+        på 3, så er det ett stykke til hver og ett til rest. Modulus er restverdien. 
+        Den kan brukes til å kontrollere om et tall er partall eller oddetall ved å sjekke om det er delelig med 2.
 			</p>
+
+
     </ol>
 		<script type="module" src="./task_2-2.mjs" defer></script>
   </body>
