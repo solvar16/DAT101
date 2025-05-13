@@ -80,7 +80,6 @@ function drawGame(){
     computerAnswer.draw();
   }
   GameProps.roundIndicator.draw();
-
   GameProps.menu.draw();
 
   for(let i = 0; i < GameProps.colorPickers.length; i++){

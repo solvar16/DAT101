@@ -32,6 +32,7 @@ export class TMenu{
         this.#buttonCheckAnswer.onClick = this.onCheckAnswerClick;
         this.#buttonNewGame.onClick = this.onButtonNewGameClick;
         this.#colorHints = [];
+
     }//End of constructor
 
     draw(){
@@ -123,6 +124,7 @@ export class TMenu{
 
     onButtonNewGameClick = () => {
         this.#roundNumber = 1;
+        //this.#setNextRound();
         this.#colorHints = [];
         newGame();
     }
@@ -155,6 +157,5 @@ export class TMenu{
             GameProps.playerAnswers[i] = null;
         }
     }
-
 
 }//End of class TMenu
